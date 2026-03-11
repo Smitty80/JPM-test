@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+
+<header>
+<div class="container navbar">
+<h1>J. Patrick Marketing</h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about-our-company.html">Company</a></li>
+<li><a href="our-partners.html">Our Partners</a></li>
+<li><a href="contact-us.html">Contact</a></li>
+<li><a href="https://www.visitkc.com"target="_blank">Visit KC</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="section">
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<label>Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Message</label>
+<textarea rows="6" required></textarea>
+
+<button class="button">Send Message</button>
+
+</form>
+
+</div>
+</section>
+
+<footer>
+<p>© <span id="year"></span> J. Patrick Marketing</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
